@@ -6,7 +6,7 @@ import Posts from "./components/Posts/Posts";
 import Form from "./components/Form/Form";
 import { getPosts } from "./actions/posts";
 import useStyles from "./styles";
-import maheshblog from "./images/maheshblog.png";
+import maheshblog2 from "./images/maheshblog2.png";
 
 const App = () => {
   const [currentId, setCurrentId] = useState(0);
@@ -25,7 +25,7 @@ const App = () => {
         </Typography>
         <img
           className={classes.image}
-          src={maheshblog}
+          src={maheshblog2}
           alt="icon"
           height="60"
         />
