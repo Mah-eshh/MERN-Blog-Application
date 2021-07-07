@@ -66,14 +66,14 @@ const SignUp = () => {
   };
 
   const googleError = () =>
-    alert("Google Sign In was unsuccessful. Try again later");
+    console.log("Google Sign In was unsuccessful. Try again later");
 
   const handleChange = (e) =>
     setForm({ ...form, [e.target.name]: e.target.value });
 
   return (
     <Container component="main" maxWidth="xs">
-      <Paper className={classes.paper} elevation={3}>
+      <Paper className={classes.paper} elevation={6}>
         <Avatar className={classes.avatar}>
           <LockOutlinedIcon />
         </Avatar>
