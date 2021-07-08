@@ -4,7 +4,7 @@ import { Link, useHistory, useLocation } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import decode from "jwt-decode";
 
-import maheshblog from "../../images/maheshblog.png";
+import myblog from "../../images/myblog.png";
 import maheshblog2 from "../../images/maheshblog2.png";
 import * as actionType from "../../constants/actionTypes";
 import useStyles from "./styles";
@@ -39,13 +39,7 @@ const Navbar = () => {
   return (
     <AppBar className={classes.appBar} position="static" color="inherit">
       <Link to="/" className={classes.brandContainer}>
-        <img
-          component={Link}
-          to="/"
-          src={maheshblog}
-          alt="icon"
-          height="45px"
-        />
+        <img component={Link} to="/" src={myblog} alt="icon" height="55px" />
         <img
           className={classes.image}
           src={maheshblog2}
@@ -63,7 +57,7 @@ const Navbar = () => {
             >
               {user?.result.name.charAt(0)}
             </Avatar>
-            <Typography className={classes.userName} variant="h6">
+            <Typography className={classes.userName} variant="h5">
               {user?.result.name}
             </Typography>
             <Button
