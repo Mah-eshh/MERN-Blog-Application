@@ -12,6 +12,8 @@ import { useParams, useHistory } from "react-router-dom";
 import { getPost, getPostsBySearch } from "../../actions/posts";
 import useStyles from "./styles";
 
+import CommentSection from "./CommentSection";
+
 const Post = () => {
   const { post, posts, isLoading } = useSelector((state) => state.posts);
   const dispatch = useDispatch();
@@ -63,18 +65,16 @@ const Post = () => {
           <Typography gutterBottom variant="body1" component="p">
             {post.message}
           </Typography>
-          <Typography variant="h6" >Writen by: {post.name}</Typography>
+          <Typography variant="h6">Writen by: {post.name}</Typography>
           <Typography variant="body1">
             {moment(post.createdAt).fromNow()}
           </Typography>
+          <CommentSection post={post}> </CommentSection>
         </div>
         <div className={classes.imageSection}>
           <img
             className={classes.media}
-            src={
-              post.selectedFile ||
-              "https://i.ibb.co/vB2QVg2/mypic.jpg"
-            }
+            src={post.selectedFile || "https://i.ibb.co/vB2QVg2/mypic.jpg"}
             alt={post.title}
           />
         </div>
