@@ -89,6 +89,14 @@ export const likePost = (id) => async (dispatch) => {
   }
 };
 
+export const commentPost = (value, id) => async (dispatch) => {
+  try {
+    const { data } = await api.comment(value, id);
+
+    console.log(data);
+  } catch (error) {}
+};
+
 export const deletePost = (id) => async (dispatch) => {
   try {
     await await api.deletePost(id);
