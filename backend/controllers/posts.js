@@ -1,5 +1,6 @@
 import express from "express";
 import mongoose from "mongoose";
+import { commentPost } from "../../frontend/src/actions/posts.js";
 
 import PostMessage from "../models/postMessage.js";
 
@@ -123,5 +124,15 @@ export const likePost = async (req, res) => {
   });
   res.status(200).json(updatedPost);
 };
+
+
+export comst commentPost = async (req, res)=>{
+  const {id} = req.params;
+  const {value}= req.body;
+
+  const post = await PostMessage.findById(id)
+  post.comments.push(value)
+  
+}
 
 export default router;
