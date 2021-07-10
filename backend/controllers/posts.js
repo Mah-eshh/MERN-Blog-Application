@@ -1,6 +1,5 @@
 import express from "express";
 import mongoose from "mongoose";
-import { commentPost } from "../../frontend/src/actions/posts.js";
 
 import PostMessage from "../models/postMessage.js";
 
@@ -119,9 +118,11 @@ export const likePost = async (req, res) => {
   } else {
     post.likes = post.likes.filter((id) => id !== String(req.userId));
   }
+
   const updatedPost = await PostMessage.findByIdAndUpdate(id, post, {
     new: true,
   });
+
   res.status(200).json(updatedPost);
 };
 
@@ -136,6 +137,7 @@ export const commentPost = async (req, res) => {
   const updatedPost = await PostMessage.findByIdAndUpdate(id, post, {
     new: true,
   });
+
   res.json(updatedPost);
 };
 
