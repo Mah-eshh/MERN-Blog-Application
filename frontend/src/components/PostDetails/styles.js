@@ -5,7 +5,7 @@ export default makeStyles((theme) => ({
     borderRadius: "20px",
     objectFit: "cover",
     width: "100%",
-    maxHeight: "400px",
+    maxHeight: "380px",
   },
   card: {
     display: "flex",
@@ -19,6 +19,7 @@ export default makeStyles((theme) => ({
     borderRadius: "20px",
     margin: "10px",
     flex: 1,
+    backgroundColor: "#A0CFEC",
   },
   imageSection: {
     marginLeft: "20px",
@@ -48,5 +49,8 @@ export default makeStyles((theme) => ({
     height: "180px",
     overflowY: "auto",
     marginRight: "40px",
+  },
+  comment: {
+    backgroundColor: "#E5E4E2",
   },
 }));

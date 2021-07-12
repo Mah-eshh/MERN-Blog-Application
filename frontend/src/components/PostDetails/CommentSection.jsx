@@ -44,6 +44,7 @@ const CommentSection = ({ post }) => {
             Comment Here
           </Typography>
           <TextField
+            className={classes.comment}
             fullWidth
             rows={4}
             variant="outlined"
