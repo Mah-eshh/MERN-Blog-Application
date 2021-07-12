@@ -8,7 +8,7 @@ export default makeStyles((theme) => ({
   },
   paper: {
     padding: theme.spacing(2),
-    backgroundColor: "#D3D3D3",
+    backgroundColor: "#98AFC7",
   },
   form: {
     display: "flex",
@@ -27,7 +27,7 @@ export default makeStyles((theme) => ({
     backgroundColor: "#D3D3D3",
   },
   msgInput: {
-    backgroundColor: "#728FCE",
+    backgroundColor: "#D3D3D3",
   },
   fileInput: {
     backgroundColor: "#C6AEC7",

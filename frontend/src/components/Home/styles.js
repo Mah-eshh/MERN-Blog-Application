@@ -12,24 +12,23 @@ export default makeStyles((theme) => ({
     borderRadius: 5,
     marginTop: "1rem",
     padding: "16px",
-    backgroundColor: "#F08080",
-    color: "#00BFFF",
+    backgroundColor: "#157DEC",
   },
   gridContainer: {
     [theme.breakpoints.down("xs")]: {
       flexDirection: "column-reverse",
     },
-    backgroundColor: "#4E5180",
+    backgroundColor: "#372580",
   },
   inputBar: {
     backgroundColor: "#F08080",
   },
   searchMemo: {
-    backgroundColor: "#40E0D0",
+    backgroundColor: "#D3D3D3",
   },
 
   searchTag: {
-    backgroundColor: "#77BFC7",
+    backgroundColor: "#D3D3D3",
   },
 
   searchButton: {
