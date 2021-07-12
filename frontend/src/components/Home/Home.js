@@ -60,11 +60,11 @@ const Home = () => {
     <Grow in>
       <Container maxWidth="xl">
         <Grid
+          className={classes.gridContainer}
           container
           justify="space-between"
           alignItems="stretch"
           spacing={3}
-          className={classes.gridContainer}
         >
           <Grid item xs={12} sm={6} md={9}>
             <Posts setCurrentId={setCurrentId} />
@@ -76,6 +76,7 @@ const Home = () => {
               color="inherit"
             >
               <TextField
+                className={classes.searchMemo}
                 onKeyDown={handleKeyPress}
                 name="search"
                 variant="outlined"
@@ -85,6 +86,7 @@ const Home = () => {
                 onChange={(e) => setSearch(e.target.value)}
               />
               <ChipInput
+                className={classes.searchTag}
                 style={{ margin: "10px 0" }}
                 value={tags}
                 onAdd={(chip) => handleAddChip(chip)}
@@ -93,8 +95,8 @@ const Home = () => {
                 variant="outlined"
               />
               <Button
-                onClick={searchPost}
                 className={classes.searchButton}
+                onClick={searchPost}
                 variant="contained"
                 color="primary"
               >
