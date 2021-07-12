@@ -82,6 +82,7 @@ const Form = ({ currentId, setCurrentId }) => {
           {currentId ? `Editing "${post?.title}"` : "Creating a Blog"}
         </Typography>
         <TextField
+          className={classes.titleInput}
           name="title"
           variant="outlined"
           label="Title"
@@ -90,12 +91,13 @@ const Form = ({ currentId, setCurrentId }) => {
           onChange={(e) => setPostData({ ...postData, title: e.target.value })}
         />
         <TextField
+          className={classes.msgInput}
           name="message"
           variant="outlined"
           label="Write"
           fullWidth
           multiline
-          rows={4}
+          rows={14}
           value={postData.message}
           onChange={(e) =>
             setPostData({ ...postData, message: e.target.value })
@@ -132,6 +134,7 @@ const Form = ({ currentId, setCurrentId }) => {
           Submit
         </Button>
         <Button
+          className={classes.buttonClear}
           variant="contained"
           color="secondary"
           size="small"

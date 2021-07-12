@@ -18,7 +18,6 @@ export default makeStyles((theme) => ({
   gridContainer: {
     [theme.breakpoints.down("xs")]: {
       flexDirection: "column-reverse",
-      backgroundColor: "#4E5180",
     },
     backgroundColor: "#4E5180",
   },
@@ -35,9 +34,5 @@ export default makeStyles((theme) => ({
 
   searchButton: {
     backgroundColor: "#157DEC",
-  },
-
-  blogForm: {
-    backgroundColor: "#77BFC7",
   },
 }));
