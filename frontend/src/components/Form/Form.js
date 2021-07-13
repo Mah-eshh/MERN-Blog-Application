@@ -53,7 +53,9 @@ const Form = ({ currentId, setCurrentId }) => {
     return (
       <Paper className={classes.paper} elevation={6}>
         <Typography variant="h6" align="center">
-          Please Sign In to create your own memories and like other's memories.
+          If you need to Create your own blog article you must Sign In. Don't
+          you have an account, you can create a new one or Google Sign Up is
+          also available.
         </Typography>
       </Paper>
     );
