@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Container } from "@material-ui/core";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 
@@ -6,14 +6,33 @@ import PostDetails from "./components/PostDetails/PostDetails";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import Auth from "./components/Auth/Auth";
+import HashLoader from "react-spinners/HashLoader";
 
 const App = () => {
   const user = JSON.parse(localStorage.getItem("profile"));
 
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 5000);
+  }, []);
+
   return (
     <BrowserRouter>
       <Container maxWidth="xl">
+        <HashLoader
+          size={50}
+          height={30}
+          width={40}
+          radius={20}
+          margin={20}
+          color="#63BDEC"
+          loading={loading}
+        />
         <Navbar />
+
         <Switch>
           <Route path="/" exact component={() => <Redirect to="/posts" />} />
           <Route path="/posts" exact component={Home} />
