@@ -8,6 +8,8 @@ import Home from "./components/Home/Home";
 import Auth from "./components/Auth/Auth";
 import HashLoader from "react-spinners/HashLoader";
 
+import About from "./components/Navbar/about";
+
 const App = () => {
   const user = JSON.parse(localStorage.getItem("profile"));
 
@@ -32,7 +34,7 @@ const App = () => {
           loading={loading}
         />
         <Navbar />
-
+        <Route path="/about" exact component={About} />
         <Switch>
           <Route path="/" exact component={() => <Redirect to="/posts" />} />
           <Route path="/posts" exact component={Home} />
