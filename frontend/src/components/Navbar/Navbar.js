@@ -62,7 +62,7 @@ const Navbar = () => {
             <NavLink className={classes.myRoutes} to="/about" activeStyle>
               About
             </NavLink>
-            <NavLink className={classes.myRoutes} to="/about" activeStyle>
+            <NavLink className={classes.myRoutes} to="/contact" activeStyle>
               Contact
             </NavLink>
 
