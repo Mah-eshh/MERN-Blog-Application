@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 import decode from "jwt-decode";
 
 import myblog from "../../images/myblog.png";
-import maheshblog2 from "../../images/maheshblog2.png";
+import myblogicon from "../../images/myblogicon.png";
 import * as actionType from "../../constants/actionTypes";
 import useStyles from "./styles";
 
@@ -48,9 +48,9 @@ const Navbar = () => {
         />
         <img
           className={classes.image}
-          src={maheshblog2}
+          src={myblogicon}
           alt="icon"
-          height="40px"
+          height="80px"
         />
       </Link>
       <Toolbar className={classes.toolbar}>
@@ -66,6 +66,7 @@ const Navbar = () => {
             <Typography className={classes.userName} variant="h5">
               {user?.result.name}
             </Typography>
+
             <Button
               variant="contained"
               className={classes.logout}
