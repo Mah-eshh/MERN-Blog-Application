@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { AppBar, Typography, Toolbar, Avatar, Button } from "@material-ui/core";
-import { Link, useHistory, useLocation } from "react-router-dom";
+import { Link, useHistory, useLocation, NavLink } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import decode from "jwt-decode";
 
@@ -56,6 +56,16 @@ const Navbar = () => {
       <Toolbar className={classes.toolbar}>
         {user?.result ? (
           <div className={classes.profile}>
+            <NavLink className={classes.myRoutes} to="/posts" activeStyle>
+              Home
+            </NavLink>
+            <NavLink className={classes.myRoutes} to="/about" activeStyle>
+              About
+            </NavLink>
+            <NavLink className={classes.myRoutes} to="/about" activeStyle>
+              Contact
+            </NavLink>
+
             <Avatar
               className={classes.purple}
               alt={user?.result.name}

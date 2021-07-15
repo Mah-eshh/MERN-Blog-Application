@@ -3,14 +3,14 @@ import { deepPurple } from "@material-ui/core/colors";
 
 export default makeStyles((theme) => ({
   appBar: {
-    backgroundColor: "#C6AEC7",
-    borderRadius: 5,
+    backgroundColor: "#79a0d2",
+    borderRadius: 3,
     margin: "30px 0",
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    padding: "150px 10px",
+    padding: "10px 10px",
     [theme.breakpoints.down("sm")]: {
       flexDirection: "column",
     },
@@ -45,13 +45,12 @@ export default makeStyles((theme) => ({
     alignItems: "center",
     [theme.breakpoints.down("sm")]: {
       width: "auto",
-      marginTop: 20,
-      justifyContent: "center",
     },
+    marginRight: "10px",
   },
   logout: {
     backgroundColor: deepPurple[800],
-    marginLeft: "100px",
+    marginLeft: "80px",
   },
   userName: {
     display: "flex",
@@ -65,5 +64,13 @@ export default makeStyles((theme) => ({
   purple: {
     color: theme.palette.getContrastText(deepPurple[500]),
     backgroundColor: deepPurple[500],
+    marginLeft: "25px",
+  },
+  myRoutes: {
+    color: "rgba(8,83,255, 5)",
+    fontSize: "2em",
+    fontWeight: 300,
+    margin: "5px",
+    marginRight: "10px",
   },
 }));
