@@ -101,7 +101,7 @@
   width: 260px;
   height: 260px;
   top: -60px;
-  left: 20px;
+  left: 10px;
   z-index: 1;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0);
 }
@@ -117,7 +117,7 @@
   text-align: center;
   color: #111;
   visibility: hidden;
-  opacity: 0;
+  opacity: 2;
   transition: 0.3s ease-in-out;
 }
 
