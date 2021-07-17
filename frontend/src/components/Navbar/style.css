@@ -130,3 +130,90 @@
 a {
   text-decoration: none;
 }
+
+/* my card */
+
+.middlecontainer {
+  position: relative;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middlecontainer .middlecard {
+  position: relative;
+  width: 280px;
+  height: 400px;
+  background: rgb(85, 6, 138);
+  margin: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.middlecontainer .middlecard:hover .middleimgBx {
+  transform: translateY(30px) scale(0.5);
+}
+
+.middlecontainer .middlecard .middleimgBx {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  transition: 0.5s;
+  z-index: index 100000;
+  transform-origin: top;
+  overflow: hidden;
+  border-radius: 20px;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0);
+}
+
+.middlecontainer .middlecard .middleimgBx img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.middlecontainer .middlecard .middlecontent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 30px;
+  transform: translateY(100%);
+  transition: 0.5s;
+}
+
+.middlecontainer .middlecard:hover .middlecontent {
+  transform: translateY(0);
+}
+
+.middlecontainer .middlecard .middlecontent .middledetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.middlecontainer .middlecard .middlecontent .middledetails h2 {
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.middlecontainer .middlecard .middlecontent .middledetails h2 span {
+  color: #f69;
+  font-weight: 400;
+  font-size: 0.8em;
+}

@@ -1,9 +1,24 @@
 import React from "react";
 import "./style.css";
+import mypic from "./mypic.png";
 
 const Contact = () => {
   return (
     <div class="container">
+      <div class="middlecontainer">
+        <div class="middlecard">
+          <div class="middleimgBx">
+            <img src={mypic} />
+          </div>
+          <div class="middlecontent">
+            <div class="middledetails">
+              <h2>
+                I'm <span> Mahesh Abeykoon </span>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="card">
         <div class="content">
           <h2>GitHub</h2>
