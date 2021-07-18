@@ -93,7 +93,7 @@ const Form = ({ currentId, setCurrentId }) => {
           onChange={(e) => setPostData({ ...postData, title: e.target.value })}
         />
         <TextField
-          className={classes.msgInput}
+          className={classes.blogWordsInput}
           name="message"
           variant="outlined"
           label="Write"

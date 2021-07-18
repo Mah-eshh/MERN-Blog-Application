@@ -26,7 +26,7 @@ export default makeStyles((theme) => ({
   titleInput: {
     backgroundColor: "#D3D3D3",
   },
-  msgInput: {
+  blogWordsInput: {
     backgroundColor: "#D3D3D3",
   },
   fileInput: {
