@@ -9,10 +9,10 @@ export default makeStyles((theme) => ({
     backgroundColor: "#98AFC7",
   },
   pagination: {
-    borderRadius: 5,
+    borderRadius: 50,
     marginTop: "1rem",
     padding: "16px",
-    backgroundColor: "#157DEC",
+    backgroundColor: "#18C",
   },
   gridContainer: {
     [theme.breakpoints.down("xs")]: {
