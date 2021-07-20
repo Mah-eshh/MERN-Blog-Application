@@ -4,7 +4,7 @@ export default makeStyles({
   media: {
     height: 0,
     paddingTop: "56.25%",
-    backgroundColor: "rgba(0, 0, 0, 0.5)",
+    backgroundColor: "rgba(5, 0, 0, 0.5)",
     backgroundBlendMode: "darken",
   },
   border: {
@@ -17,10 +17,9 @@ export default makeStyles({
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
-    borderRadius: "15px",
     height: "100%",
     position: "relative",
-    backgroundColor: "#B6B6B4",
+    backgroundColor: "#B1B9B9",
   },
   overlay: {
     position: "absolute",
@@ -43,7 +42,8 @@ export default makeStyles({
     margin: "20px",
   },
   title: {
-    padding: "0 16px",
+    padding: "0 18px",
+    color: "#323385",
   },
   cardActions: {
     padding: "0 16px 8px 16px",
