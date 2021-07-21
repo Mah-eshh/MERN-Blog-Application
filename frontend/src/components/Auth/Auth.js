@@ -142,7 +142,7 @@ const SignUp = () => {
                 startIcon={<Icon />}
                 variant="contained"
               >
-                Google Sign In
+                Google
               </Button>
             )}
             onSuccess={googleSuccess}
@@ -151,7 +151,7 @@ const SignUp = () => {
           />
           <Grid container justify="flex-end">
             <Grid item>
-              <Button onClick={switchMode}>
+              <Button color="#000080" onClick={switchMode}>
                 {isSignup
                   ? "Already have an account? Sign in"
                   : "Don't have an account? Sign Up"}
