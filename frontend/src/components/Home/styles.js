@@ -18,7 +18,7 @@ export default makeStyles((theme) => ({
     [theme.breakpoints.down("xs")]: {
       flexDirection: "column-reverse",
     },
-    backgroundColor: "#372580",
+    // backgroundColor: "#372580",
   },
   inputBar: {
     backgroundColor: "#F08080",
