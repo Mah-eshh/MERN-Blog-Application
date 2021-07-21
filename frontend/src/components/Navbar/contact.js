@@ -5,20 +5,23 @@ import mypic from "./mypic.png";
 const Contact = () => {
   return (
     <div class="container">
-      <div class="middlecontainer">
-        <div class="middlecard">
-          <div class="middleimgBx">
-            <img src={mypic} />
-          </div>
-          <div class="middlecontent">
-            <div class="middledetails">
-              <h2>
-                I'm <span> Mahesh Abeykoon </span>
-              </h2>
-            </div>
-          </div>
+      <aside class="profile-card">
+        <header>
+          <a target="_blank" href="#">
+            <img src={mypic} class="hoverZoomLink" />
+          </a>
+
+          <h1>Mahesh Abeykoon</h1>
+        </header>
+
+        <div class="profile-bio">
+          <p>
+            Hei You're always welcome to MAHESH blog article web Application.
+            This is something very new experience for you to wirte an aricle or
+            collect some essential knowlage about some feild{" "}
+          </p>
         </div>
-      </div>
+      </aside>
       <div class="card">
         <div class="content">
           <h2>GitHub</h2>
@@ -32,18 +35,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div class="card">
-        <div class="content">
-          <h2>Instagram</h2>
-
-          <p>
-            Instagram is a free, online photo-sharing application and social
-            network platform that was acquired by Facebook in 2012. So take a
-            look at my instagram account.
-          </p>
-          <a href="https://www.instagram.com/mahe_sh"> Connect</a>
-        </div>
-      </div>
+      <div class="card"></div>
 
       <div class="card">
         <div class="content">
