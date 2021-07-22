@@ -22,12 +22,12 @@ export default makeStyles((theme) => ({
     fontWeight: 300,
   },
   image: {
-    marginLeft: "10px",
-    marginTop: "5px",
+    marginLeft: "15px",
   },
   myName: {
-    height: "60px",
-    width: "400px",
+    height: "105px",
+    width: "210px",
+    marginLeft: "50px",
   },
 
   toolbar: {
