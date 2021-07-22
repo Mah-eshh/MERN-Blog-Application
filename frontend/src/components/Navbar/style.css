@@ -41,7 +41,7 @@
 
 .container .card .content h2 {
   position: absolute;
-  top: 170px;
+  top: 180px;
   left: 10px;
   font-size: 3em;
   color: royalblue;
@@ -157,7 +157,7 @@ p {
 }
 
 .profile-card {
-  background: #ffb300;
+  background: #1de688;
   width: 56px;
   height: 56px;
   margin-inline-start: 40px;
@@ -193,7 +193,7 @@ p {
   display: inline-block;
   float: left;
   border-right: 2px dashed #eeeeee;
-  background: rgb(16, 48, 79);
+  background: rgb(4, 19, 104);
   color: #000000;
   margin-top: 50px;
   opacity: 0;
@@ -203,7 +203,11 @@ p {
 }
 
 .profile-card header h1 {
-  color: #ff5722;
+  color: #7b5480;
+}
+.myname {
+  color: #51c564;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .profile-card header a {
@@ -225,16 +229,16 @@ p {
   transform: scale(0);
   background: -webkit-linear-gradient(
     top,
-    #2196f3 0%,
-    #2196f3 50%,
-    #ffc107 50%,
-    #ffc107 100%
+    #0d9dad 0%,
+    #0db4a4 50%,
+    #0d5577 50%,
+    #e491e1 100%
   );
   background: linear-gradient(
-    #2196f3 0%,
+    #a40db8 0%,
     #2196f3 50%,
-    #ffc107 50%,
-    #ffc107 100%
+    #10c09a 50%,
+    #d18fc6 100%
   );
   -webkit-border-radius: 50%;
   border-radius: 50%;
@@ -267,8 +271,8 @@ p {
   display: inline-block;
   float: right;
   padding: 50px 20px 30px 20px;
-  background: #f55f;
-  color: #333333;
+  background: rgb(136, 126, 134);
+  color: #ebfaff;
   margin-top: 50px;
   text-align: center;
   opacity: 0;

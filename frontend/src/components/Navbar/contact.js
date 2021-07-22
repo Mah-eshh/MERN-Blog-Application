@@ -11,14 +11,17 @@ const Contact = () => {
             <img src={mypic} class="hoverZoomLink" />
           </a>
 
-          <h1>Mahesh Abeykoon</h1>
+          <h1>
+            {" "}
+            Hi I'm <b class="myname"> Mahesh Abeykoon </b>
+          </h1>
         </header>
 
         <div class="profile-bio">
           <p>
-            Hei You're always welcome to MAHESH blog article web Application.
-            This is something very new experience for you to wirte an aricle or
-            collect some essential knowlage about some feild{" "}
+            Welcome to MAHESH blog app. This is something new experience for you
+            to wirte an aricle and gather your knowledge, because you are
+            already a member here. Go on!..{" "}
           </p>
         </div>
       </aside>
@@ -27,9 +30,8 @@ const Contact = () => {
           <h2>GitHub</h2>
 
           <p>
-            Github is a web-based platform used for version control. Git
-            simplifies the process of working with other people and makes it
-            easy to collaborate on projects.
+            Github is a web-based platform used for version control you can
+            connect with me
           </p>
           <a href="https://github.com/Mah-eshh"> Connect</a>
         </div>
