@@ -8,7 +8,11 @@ export default makeStyles((theme) => ({
     alignItems: "center",
     padding: theme.spacing(4),
     backgroundColor: "#B0CFDE",
+    backgroundImage:
+      "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7C7nF7qzDqlU_kAykRg3KkiNYNgXnPVOQAQ&usqp=CAU)",
+    opacity: 41,
   },
+
   root: {
     "& .MuiTextField-root": {
       margin: theme.spacing(1),
