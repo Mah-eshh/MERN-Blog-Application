@@ -7,8 +7,13 @@ export default makeStyles((theme) => ({
     },
   },
   paper: {
-    padding: theme.spacing(2),
+    padding: theme.spacing(1),
     backgroundColor: "#98AFC7",
+  },
+  blogTopic: {
+    fontWeight: 50,
+    fontSize: 20,
+    fontFamily: "Trebuchet MS",
   },
   form: {
     display: "flex",
@@ -36,8 +41,13 @@ export default makeStyles((theme) => ({
   buttonSubmit: {
     marginBottom: 10,
     backgroundColor: "#2B65EC",
+    fontWeight: 600,
+    fontSize: 15,
+    fontFamily: "Microsoft YaHei",
   },
   buttonClear: {
     backgroundColor: "#FF1493",
+    fontWeight: 700,
+    fontSize: 15,
   },
 }));

@@ -80,8 +80,8 @@ const Form = ({ currentId, setCurrentId }) => {
         className={`${classes.root} ${classes.form}`}
         onSubmit={handleSubmit}
       >
-        <Typography variant="h6">
-          {currentId ? `Editing "${post?.title}"` : "Creating a Blog"}
+        <Typography className={classes.blogTopic} variant="h6">
+          {currentId ? `Editing "${post?.title}"` : "Write Your Blog Here!..."}
         </Typography>
         <TextField
           className={classes.titleInput}
