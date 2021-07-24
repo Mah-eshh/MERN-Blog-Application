@@ -33,5 +33,8 @@ export default makeStyles((theme) => ({
 
   searchButton: {
     backgroundColor: "#157DEC",
+    fontFamily: "Malgun Gothic",
+    fontWeight: 900,
+    fontSize: 15,
   },
 }));
