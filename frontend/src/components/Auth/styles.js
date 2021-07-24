@@ -2,15 +2,14 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export default makeStyles((theme) => ({
   paper: {
-    marginTop: theme.spacing(6),
+    marginTop: theme.spacing(-3),
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
     padding: theme.spacing(4),
-    backgroundColor: "#B0CFDE",
+    backgroundSize: "cover",
     backgroundImage:
-      "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7C7nF7qzDqlU_kAykRg3KkiNYNgXnPVOQAQ&usqp=CAU)",
-    opacity: 41,
+      "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpXEvYZCjsBshECJhifAzklgOBmYm-leC2kT-Wl3EsJEP5ghhFWEeAmkG_i_ywwYcat6A&usqp=CAU)",
   },
 
   root: {
@@ -24,7 +23,8 @@ export default makeStyles((theme) => ({
   },
   form: {
     width: "100%",
-    marginTop: theme.spacing(6),
+    marginTop: theme.spacing(1),
+    fontFamily: "Comic Sans MS",
   },
   submit: {
     margin: theme.spacing(3, 0, 2),
@@ -33,11 +33,18 @@ export default makeStyles((theme) => ({
     width: "330px",
     fontSize: "15px",
     color: "#ffff",
+    fontFamily: "Verdana",
   },
   googleButton: {
     marginBottom: theme.spacing(5),
     backgroundColor: "#1669F2",
     fontSize: "15px",
     color: "#ffff",
+    fontFamily: "Verdana",
+  },
+  signInUpBtn: {
+    color: "#ffff",
+    fontSize: "13px",
+    fontFamily: "Verdana",
   },
 }));

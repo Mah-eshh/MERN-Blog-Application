@@ -85,6 +85,7 @@ const SignUp = () => {
             {isSignup && (
               <>
                 <Input
+                  className={classes.fname}
                   name="firstName"
                   label="First Name"
                   handleChange={handleChange}
@@ -151,7 +152,11 @@ const SignUp = () => {
           />
           <Grid container justify="flex-end">
             <Grid item>
-              <Button color="#000080" onClick={switchMode}>
+              <Button
+                color="#000080"
+                className={classes.signInUpBtn}
+                onClick={switchMode}
+              >
                 {isSignup
                   ? "Already have an account? Sign in"
                   : "Don't have an account? Sign Up"}
