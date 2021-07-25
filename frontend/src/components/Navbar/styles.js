@@ -47,10 +47,15 @@ export default makeStyles((theme) => ({
       width: "auto",
     },
     marginRight: "10px",
+    fontFamily: "Century Gothic",
+    fontSize: 15,
   },
   logout: {
     backgroundColor: deepPurple[800],
     marginLeft: "80px",
+    fontFamily: "Century Gothic",
+    fontSize: 15,
+    adding: "16px",
   },
   userName: {
     display: "flex",
