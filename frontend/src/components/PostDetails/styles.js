@@ -20,12 +20,16 @@ export default makeStyles((theme) => ({
     margin: "10px",
     flex: 1,
     backgroundColor: "#A0CFEC",
+    backgroundImage:
+      "url(https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png)",
+    backgroundSize: "cover",
   },
   imageSection: {
-    marginLeft: "10px",
+    marginLeft: "12px",
     [theme.breakpoints.down("sm")]: {
       marginLeft: 0,
     },
+    marginTop: "10px",
   },
   recommendedPosts: {
     display: "flex",
@@ -51,6 +55,12 @@ export default makeStyles((theme) => ({
     marginRight: "40px",
   },
   comment: {
-    backgroundColor: "#E5E4E2",
+    backgroundColor: "#E2E4E1",
+    width: "350px",
+    height: "100px",
+  },
+  commentBtn: {
+    backgroundColor: "blue",
+    width: "350px",
   },
 }));

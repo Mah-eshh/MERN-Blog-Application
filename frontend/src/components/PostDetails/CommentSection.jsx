@@ -39,14 +39,14 @@ const CommentSection = ({ post }) => {
           ))}
           <div ref={commentsRef} />
         </div>
-        <div style={{ width: "70%" }}>
+        <div style={{ width: "40%" }}>
           <Typography gutterBottom variant="h6">
             Comment Here
           </Typography>
           <TextField
             className={classes.comment}
             fullWidth
-            rows={4}
+            rows={2}
             variant="outlined"
             label="Comment"
             multiline
@@ -55,6 +55,7 @@ const CommentSection = ({ post }) => {
           />
           <br />
           <Button
+            className={classes.commentBtn}
             style={{ marginTop: "10px" }}
             fullWidth
             disabled={!comment.length}
