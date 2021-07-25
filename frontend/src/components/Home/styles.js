@@ -10,9 +10,11 @@ export default makeStyles((theme) => ({
   },
   pagination: {
     borderRadius: 50,
-    marginTop: "1rem",
     padding: "16px",
-    backgroundColor: "#18C",
+    marginLeft: "720px",
+    marginBottom: "10px",
+    backgroundImage:
+      "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdRJxNT3-CaYCZsqzbQsTKmiq2fO55xMUw9w&usqp=CAU)",
   },
   gridContainer: {
     [theme.breakpoints.down("xs")]: {
