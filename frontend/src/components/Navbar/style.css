@@ -18,6 +18,8 @@
   box-shadow: 20px 20px 50px;
   border-radius: 55px;
   background-color: rgb(29, 30, 31);
+  background-image: url(data:image/jpeg;base64,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);
+  background-size: cover;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -193,7 +195,7 @@ p {
   display: inline-block;
   float: left;
   border-right: 2px dashed #eeeeee;
-  background: rgb(4, 19, 104);
+  background-image: url(https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png);
   color: #000000;
   margin-top: 50px;
   opacity: 0;
@@ -206,7 +208,7 @@ p {
   color: #7b5480;
 }
 .myname {
-  color: #51c564;
+  color: #097cb1;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -271,8 +273,8 @@ p {
   display: inline-block;
   float: right;
   padding: 50px 20px 30px 20px;
-  background: rgb(136, 126, 134);
-  color: #ebfaff;
+  background: rgb(60, 63, 136);
+  color: #fbfeff;
   margin-top: 50px;
   text-align: center;
   opacity: 0;
@@ -384,13 +386,13 @@ p {
   }
   100% {
     top: 50%;
-    background: #e0e0e0;
+    background: #744646;
   }
 }
 
 @keyframes moveUp {
   0% {
-    background: #ffb300;
+    background: #1143e9;
     top: 100%;
   }
   50% {
@@ -398,13 +400,13 @@ p {
   }
   100% {
     top: 50%;
-    background: #e0e0e0;
+    background: #d6025e;
   }
 }
 
 @-webkit-keyframes materia {
   0% {
-    background: #e0e0e0;
+    background: #6a5959;
   }
   50% {
     -webkit-border-radius: 4px;
@@ -412,14 +414,14 @@ p {
   100% {
     width: 440px;
     height: 280px;
-    background: #ffffff;
+    background: #5372f2;
     -webkit-border-radius: 4px;
   }
 }
 
 @keyframes materia {
   0% {
-    background: #e0e0e0;
+    background: #ff5454;
   }
   50% {
     border-radius: 4px;
@@ -427,7 +429,7 @@ p {
   100% {
     width: 440px;
     height: 280px;
-    background: #ffffff;
+    background: #08dd44;
     border-radius: 4px;
   }
 }
