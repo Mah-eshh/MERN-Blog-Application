@@ -11,10 +11,9 @@ export default makeStyles((theme) => ({
   pagination: {
     borderRadius: 50,
     padding: "16px",
-    marginLeft: "720px",
+    marginLeft: "780px",
     marginBottom: "10px",
-    backgroundImage:
-      "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdRJxNT3-CaYCZsqzbQsTKmiq2fO55xMUw9w&usqp=CAU)",
+    backgroundImage: "url(https://wallpaperaccess.com/full/1567834.jpg)",
   },
   gridContainer: {
     [theme.breakpoints.down("xs")]: {
