@@ -1,1 +1,1 @@
-
+This is the final project I completed during my 3rd year at university. The project is a blogging platform that allows users to create, read, update, and delete blog posts using CRUD operations. To gain some inspiration and ideas for completing the project, I watched a video by JavaScript Mastery on YouTube
